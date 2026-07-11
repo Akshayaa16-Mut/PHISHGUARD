@@ -35,7 +35,7 @@ function App() {
     setIsScanning(true);
     const scanStartTime = performance.now();
     try {
-      const response = await fetch("http://phishguard-myb6.onrender.com/predict", {
+      const response = await fetch("https://phishguard-myb6.onrender.com/predict", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
